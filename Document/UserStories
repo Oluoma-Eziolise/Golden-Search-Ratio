@@ -1,1 +1,24 @@
 
+User Story: As a user, I want clear and informative error messages. In case of errors or issues, the application should provide clear and helpful error messages to assist the user.  
+
+User Story: As a user, I want the option to save the results to a file. Provide the option to save the iteration history and final result to a text file for future reference.  
+
+User Story: As a user, I want to restart the search with different parameters. After one search is complete, allow the user to restart with different parameters without exiting the application.  
+
+User Story: As a user, I want a user-friendly interface. Design a user-friendly console interface with clear instructions and user prompts. 
+
+User Story: As a user, I want to be prompted to enter a function in the console. The application should greet the user and ask for the mathematical function they want to optimize using the Golden Section Search.  
+
+User Story: As a user, I want to specify the search interval [a, b] for the algorithm. The user should be prompted to enter the initial interval [a, b] for the search.  
+
+User Story: As a user, I want to specify the tolerance level for the search. The user should be prompted to enter the tolerance level (epsilon) that determines when to stop the search. 
+
+User Story: As a user, I want to see the iterations and results of the algorithm. The application should display the iteration number, the interval [a, b] for each iteration, and the values of f(a), f(b), and the current approximation of the minimum.  
+
+User Story: As a user, I want to terminate the search at any time. The user should have the option to stop the search at any point during the calculation.  
+
+User Story: As a user, I want to see the final result and the minimum value of the function. After the search is complete, the application should display the final result, which includes the minimum value of the function and the corresponding x-value. 
+
+User Story: As a user, I want to input a custom maximum number of iterations. Allow the user to specify a maximum number of iterations if they want to limit the algorithm's runtime.  
+
+User Story: As a user, I want to handle invalid inputs gracefully. The application should handle cases where the user enters invalid functions, intervals, or tolerance values. 
