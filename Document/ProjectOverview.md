@@ -1,4 +1,4 @@
-###Project Title: Golden Section Search
+### Project Title: Golden Section Search
 
 Team Members: Jehoshua Tayo-ayorinde, Divine Eziolise
 
