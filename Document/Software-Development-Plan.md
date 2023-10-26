@@ -8,9 +8,9 @@ A user will provide the an interval, a range of error, and a formula. Then, the 
 the maximum or minimum.
 
 ### Schedule:
-•	10/20/2023  
+•	first sprint date: 10/28/2023  
 •	1 week sprints  
-•	11/10/2023  
+•	last sprint date: 11/17/2023  
 ### Software Development Environment
 •	Hardware: 
 •	Operating System:
@@ -32,10 +32,10 @@ the maximum or minimum.
 
 ### Sprint Planning:  
 Sprint start dates:  
-- 10/20/2023
-- 10/27/2023
-- 11/03/2023
-- 11/10/2023
+- 10/28/2023
+- 11/04/2023
+- 11/11/2023
+- 11/18/2023
 #### Inputs:
 •	Product backlog
 •	Sprint backlog
