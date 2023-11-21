@@ -1,10 +1,12 @@
 import math
-from sympy import diff, symbols
+from sympy import diff, symbols, cos, tan,sin
 print("[NOTE!!: 2x^2 should be put at 2*x**2, 2x^3 should be put as 2*x**4]")
-#function = x^4 - 14*x^3 + 60*x^2 - 70*x
-#input("f(x): ")
-function = "x**4 - 14*x**3 +60*x**2 - 70*x"
+
+# Get the mathematical expression from the user
+function = input("f(x): ")
+# Define the variable symbolically
 x = symbols('x')
+# Convert the user input into a SymPy expression
 f = eval(function)
 dfdx = diff(f,x)
 interval = input("Interval:     NOTE!!!: seperate the intervals by space and not commas")
@@ -60,8 +62,7 @@ def numOfIterations():
 
 #creating a function for the math function 
 def getFunction(x):
-    function =  x**4 - 14*x**3 + 60*x**2 - 70*x
-    return function
+    return f.subs('x', x)
 
 #test: interval
 getInterval()
