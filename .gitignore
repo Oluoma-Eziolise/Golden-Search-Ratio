@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+__pycache__/Constants.cpython-310.pyc

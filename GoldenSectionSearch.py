@@ -1,11 +1,11 @@
-import math
+import math, Constants
 from sympy import diff, symbols
 
 # Prompt for user input and provide a note about the correct syntax
 print("[NOTE!!: 2x^2 should be put at 2*x**2, 2x^3 should be put as 2*x**4]")
 
 # Get the mathematical expression from the user
-function = input("f(x): ")
+function = input("\nf(x): ")
 
 # Define the variable symbolically
 x = symbols('x')
@@ -15,14 +15,11 @@ f = eval(function)  # Be cautious about using eval, ensure user input is safe
 dfdx = diff(f, x)
 
 # Get the interval from the user
-interval = input("Interval:     NOTE!!!: separate the intervals by space and not commas")
+print("[NOTE!!!: separate the intervals by space and not commas]")
+interval = input("\nInterval: ")
 
 # Get the range from the user
 theRange = input("Range: ")
-
-# Constants for the Golden Section Search
-p = 0.38195
-otherP = 0.61803
 
 # Split input into a list of strings
 number = interval.split()
@@ -38,11 +35,11 @@ def numOfIterations():
     try:
         theRange_value = float(theRange)
         if secondInterval - firstInterval != 0:
-            NoIterations = math.log(theRange_value / (secondInterval - firstInterval), otherP)
-            NoIterations = round(NoIterations)
-            return NoIterations
+            NumIterations = math.log(theRange_value / (secondInterval - firstInterval), Constants.OTHER_P)
+            NumIterations = round(NumIterations)
+            return NumIterations
         else:
-            print("That's not a valid one blud")
+            print("That's not a range and interval")
     except ValueError:
         print("Enter a valid number.")
 
